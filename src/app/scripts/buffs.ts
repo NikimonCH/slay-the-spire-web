@@ -1,0 +1,83 @@
+export default class Buffs {
+  buffName = {
+    Artifact: "Artifact",
+    Barricade: "Barricade",
+    Buffer: "Buffer",
+    Dexterity: "Dexterity",
+    DrawCard: "DrawCard",
+    Energized: "Energized",
+    Focus: "Focus",
+    Intangible: "Intangible",
+    Mantra: "Mantra",
+    Metallicize: "Metallicize",
+    NextTurnBlock: "NextTurnBlock",
+    PlatedArmor: "PlatedArmor",
+    Regenerate: "Regenerate",
+    Ritual: "Ritual",
+    Strength: "Strength",
+    Thorns: "Thorns",
+    Vigor: "Vigor",
+  };
+
+  buffDescription = {
+    Artifact: "Negates X debuffs.",
+    Barricade: "Block is not removed at the start of turn.",
+    Buffer: "Prevent the next X times you would lose HP.",
+    Dexterity: "Increases Block gained from cards by X.",
+    DrawCard: "Draw X additional cards next turn.",
+    Energized: "Gain X additional Energy next turn.",
+    Focus: "Increases the effectiveness of Orbs by X.",
+    Intangible:
+      "Reduce ALL damage taken and HP loss to 1 this turn. (lasts X turns)",
+    Mantra: "When you gain 10 Mantra, enter Divinity.",
+    Metallicize: "At the end of turn, gain X Block.",
+    NextTurnBlock: "Gain X Block next turn.",
+    PlatedArmor:
+      "At the end of your turn, gain X Block. Receiving unblocked attack damage reduces Plated Armor by 1.",
+    Regenerate: "At the end of turn, heals X HP.",
+    Ritual: "At the end of turn, gains X Strength.",
+    Strength: "Increases attack damage by X.",
+    Thorns: "When attacked, deals X damage back.",
+    Vigor: "	Your next Attack deals X additional damage.",
+  };
+
+  buffStackable = {
+    Artifact: "Counter",
+    Barricade: "No",
+    Buffer: "Counter",
+    Dexterity: "Intensity",
+    DrawCard: "Intensity",
+    Energized: "Intensity",
+    Focus: "Intensity",
+    Intangible: "Duration",
+    Mantra: "Counter",
+    Metallicize: "Intensity",
+    NextTurnBlock: "Intensity",
+    PlatedArmor: "Intensity",
+    Regenerate: "Intensity",
+    Ritual: "Intensity",
+    Strength: "Intensity",
+    Thorns: "Intensity",
+    Vigor: "Intensity",
+  };
+
+  buffStacks = {
+    Artifact: 0,
+    Barricade: 0,
+    Buffer: 0,
+    Dexterity: 0,
+    DrawCard: 0,
+    Energized: 0,
+    Focus: 0,
+    Intangible: 0,
+    Mantra: 0,
+    Metallicize: 0,
+    NextTurnBlock: 0,
+    PlatedArmor: 0,
+    Regenerate: 0,
+    Ritual: 0,
+    Strength: 0,
+    Thorns: 0,
+    Vigor: 0,
+  };
+}

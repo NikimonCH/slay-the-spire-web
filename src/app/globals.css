@@ -9,8 +9,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* --background: #0a0a0a; */
+    /* --foreground: #ededed; */
   }
 }
 
@@ -19,7 +19,12 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
+canvas {
+  border: #171717;
+  border-radius: 1px;
+  border-width: 1px;
+  border-style: double;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
